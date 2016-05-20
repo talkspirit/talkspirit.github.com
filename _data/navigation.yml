@@ -1,0 +1,16 @@
+# Main menu
+main:
+  - title: "Documentation"
+    url: /
+
+  - title: "Blog"
+    url: /blog
+
+# Documentation sidebar
+docs:
+  - title: Documentation
+    children:
+      - title: "Getting Started"
+        url: /
+      - title: "Incoming Webhooks"
+        url: /docs/incoming-wehooks/
