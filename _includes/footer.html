@@ -1,6 +1,10 @@
 {% include base_path %}
 
 <div class="page__footer-follow">
+  <a href="https://www.talkspirit.com/" class="align-right">
+    <img src="https://www.talkspirit.com/images/official/logo-tk.png" alt="{{ site.title }}" width="80">
+  </a>
+
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -11,7 +15,7 @@
       </a>
     </li>
     <li>
-      <a href="http://github.com/{{ site.author.github }}">
+      <a href="http://github.com/talkspirit">
         <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
       </a>
     </li>
@@ -24,7 +28,7 @@
 </div>
 
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+  &copy; {{ site.time | date: '%Y' }} <a href="https://www.talkspirit.com/">{{ site.name | default: site.title }}</a>.
   {{ site.data.ui-text[site.locale].powered_by }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>
   &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 </div>
