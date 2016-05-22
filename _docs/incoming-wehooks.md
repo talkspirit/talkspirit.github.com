@@ -11,7 +11,7 @@ Incoming Webhooks is a way to send posts from external sources into talkSpirit.
 The webhooks can be send to groups or users. Basically you just have to send a 
 simple HTTP requests with a JSON payload.
 
-Start by [setting up an incoming webhook integration][integration] in your 
+Start by [setting up an incoming webhook integration][create-webhook] in your 
 talkSpirit team, grab the token and start to send posts.
 
 ## Sending posts
@@ -67,4 +67,4 @@ just need to copy/paste it and change the token (XXX...) by yours.
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
-[integration]: https://talkspiritv3.zendesk.com/hc/en-us/articles/203586142-Integrating-web-services
+[create-webhook]: https://talkspiritv3.zendesk.com/hc/fr/articles/208542705-Configurer-un-Webhook-entrant
