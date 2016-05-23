@@ -12,5 +12,7 @@ docs:
     children:
       - title: "Getting Started"
         url: /
-      - title: "Incoming Webhooks"
+      - title: "Create an Incoming Webhook"
+        url: /docs/create-incoming-webhook/
+      - title: "Sending Incoming Webhooks"
         url: /docs/incoming-webhooks/
