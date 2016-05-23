@@ -1,26 +1,24 @@
 ---
 title: "Incoming Webhooks"
-permalink: /docs/incoming-wehooks/
+permalink: /docs/incoming-webhooks/
 excerpt: "Incoming Webhooks is a way to send posts from external sources into talkSpirit."
-modified: 2016-05-20T11:30:00-00:00
+modified: 2016-05-23
 ---
 
 {% include base_path %}
 
-Incoming Webhooks is a way to send posts from external sources into talkSpirit. 
-The webhooks can be send to groups or users. Basically you just have to send a 
-simple HTTP requests with a JSON payload.
+Incoming Webhooks is a way to send posts from external sources into talkSpirit 
+through a secret URL. The webhooks can be send to groups or users. Basically you 
+just have to send a simple HTTP requests with a JSON payload.
 
-Start by [setting up an incoming webhook integration][create-webhook] in your 
-talkSpirit team, grab the token and start to send posts.
+Start by [setting up an incoming webhook integration][create-incoming-webhook] 
+in your talkSpirit team, grab the token and start to send posts.
 
 ## Sending posts
 
 You'll learn how to post a message like this:
 
-<figure>
-  <img src="/images/docs/post-through-incoming-webhook3.png" alt="">
-</figure>
+![](/images/docs/post-through-incoming-webhook3.png){: .align-center}
 
 For this message your JSON payload needs to define these properties:
 
@@ -67,4 +65,4 @@ just need to copy/paste it and change the token (XXX...) by yours.
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
-[create-webhook]: https://talkspiritv3.zendesk.com/hc/fr/articles/208542705-Configurer-un-Webhook-entrant
+[create-incoming-webhook]: /docs/create-incoming-webhook/
