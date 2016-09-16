@@ -20,13 +20,13 @@ notify:
     - url: https://webhook.talkspirit.com/v1/incoming/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-Les notifications déclenchées sont :
+Les notifications sont déclenchées :
 
  - lorsque un build échoue
  - lorsqu'un build réussi après un échec
  - lors du 1er build d'une nouvelle branche
 
-Contrairement aux outils qui ne sont que des chatrooms, talkSpirit possède un wall avec des commentaires car nous pensons que l'information doit-être hierarchisée. L'intégration de CircleCI s'appuie sur cette caractéristique. Lorsqu'un build est corrigé, le webhook s'ajoute en tant que commentaire. Ci-dessous un exemple d'intégration
+Contrairement aux chatrooms, talkSpirit possède un wall avec des commentaires car nous pensons que l'information doit-être hierarchisée. L'intégration de CircleCI s'appuie sur cette caractéristique. Lorsqu'un build est corrigé, le webhook s'ajoute en tant que commentaire. Ci-dessous un exemple d'intégration
 
 
 ![](/images/posts/circleci.png){: .align-center}
