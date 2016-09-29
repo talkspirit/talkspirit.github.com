@@ -65,7 +65,7 @@ just need to copy/paste it and change the token (XXX...) by yours.
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
-## Thread id field
+## Threaded posts
 
 talkSpirit supports threads, so you can send many webhooks on the same post. The following
 webhooks are added as comments of the initial post.
