@@ -1,18 +1,18 @@
 ---
 title: "Incoming Webhooks"
 permalink: /docs/incoming-webhooks/
-excerpt: "Incoming Webhooks is a way to send posts from external sources into talkSpirit."
+excerpt: "Incoming Webhooks is a way to send posts from external sources into talkspirit."
 modified: 2016-05-23
 ---
 
 {% include base_path %}
 
-Incoming Webhooks is a way to send posts from external sources into talkSpirit
+Incoming Webhooks is a way to send posts from external sources into talkspirit
 through a secret URL. The webhooks can be send to groups or users. Basically you
 just have to send a simple HTTP requests with a JSON payload in UTF-8.
 
 Start by [setting up an incoming webhook integration][create-incoming-webhook]
-in your talkSpirit team, grab the token and start to send posts.
+in your talkspirit team, grab the token and start to send posts.
 
 ## Sending posts
 
@@ -67,7 +67,7 @@ just need to copy/paste it and change the token (XXX...) by yours.
 
 ## Threaded posts
 
-talkSpirit supports threads, so you can send many webhooks on the same post. The following
+talkspirit supports threads, so you can send many webhooks on the same post. The following
 webhooks are added as comments of the initial post.
 
 To handle threaded messages you just have to define an identifier and set it in the payload in

@@ -1,5 +1,5 @@
 ---
-title:  "Intégration Bitbucket et talkSpirit"
+title:  "Intégration Bitbucket et talkspirit"
 tags:
   - bitbucket,webhook
 ---
@@ -7,7 +7,7 @@ tags:
 [Bitbucket][bitbucket] est un service permettant d'héberger des dépôts Git et 
 Mercurial. 
 
-[talkSpirit][talkspirit] vous permet d'intégrer [Bitbucket][bitbucket] pour :
+[talkspirit][talkspirit] vous permet d'intégrer [Bitbucket][bitbucket] pour :
 
 * suivre les activités de vos issues dans votre groupe (création d'un post par 
   issue et suivi du changement de statut en commentaires) ;
@@ -27,7 +27,7 @@ reste plus qu'à créer le webhook sur Bitbucket, pour cela rendez-vous dans les
 
 Cliquez sur le bouton **Add webhook** et collez l'URL dans le champ de texte.
 Vous pouvez personnaliser les déclencheurs et donc les informations que vous 
-souhaitez envoyer dans votre groupe talkSpirit (issues, pull requests ou push) :
+souhaitez envoyer dans votre groupe talkspirit (issues, pull requests ou push) :
 
 ![](/images/posts/bitbucket-webhook-2.png)
 
