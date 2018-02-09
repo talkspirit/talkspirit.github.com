@@ -1,4 +1,4 @@
-# talkSpirit documentation & blog
+# talkspirit documentation & blog
 
 This site is powered by [Jekyll][jekyll] and [Minimal Mistakes][theme] theme.
 

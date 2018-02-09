@@ -8,11 +8,11 @@ modified: 2016-05-23
 {% include base_path %}
 
 [Incoming Webhooks][incoming-webhooks] is a way to send posts from external 
-sources into talkSpirit through a secret URL.
+sources into talkspirit through a secret URL.
 
 ## Configure the Incoming Webhook
 
-To create your Incoming Webhook to talkSpirit click on the "Services" button on 
+To create your Incoming Webhook to talkspirit click on the "Services" button on 
 the top of the page then click on the "Add" button in front of Incoming Webhook
 (you can filter services with the "webhook" term to easily find the section).
 

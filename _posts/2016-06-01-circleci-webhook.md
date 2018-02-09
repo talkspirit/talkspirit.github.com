@@ -6,7 +6,7 @@ tags:
   - circleci,webhook
 ---
 
-Au sein de [talkSpirit](https://www.talkspirit.com/) nous pratiquons [l'intégration continue](https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue). Nous utilisons l'outil [CircleCI](https://circleci.com/) afin de faciliter l'exécution des tests jusqu'au déploiement en production. Aussi il était normal de l'avoir parmi les premières applications intégrées de talkSpirit.
+Au sein de [talkspirit](https://www.talkspirit.com/) nous pratiquons [l'intégration continue](https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue). Nous utilisons l'outil [CircleCI](https://circleci.com/) afin de faciliter l'exécution des tests jusqu'au déploiement en production. Aussi il était normal de l'avoir parmi les premières applications intégrées de talkspirit.
 
 Pour ça rien de plus simple, allez dans la rubrique `Services` et sélectionnez `CircleCI`
 
@@ -26,7 +26,7 @@ Les notifications sont déclenchées :
  - lorsqu'un build réussi après un échec
  - lors du 1er build d'une nouvelle branche
 
-Contrairement aux chatrooms, talkSpirit possède un wall avec des commentaires car nous pensons que l'information doit-être hierarchisée. L'intégration de CircleCI s'appuie sur cette caractéristique. Lorsqu'un build est corrigé, le webhook s'ajoute en tant que commentaire. Ci-dessous un exemple d'intégration
+Contrairement aux chatrooms, talkspirit possède un wall avec des commentaires car nous pensons que l'information doit-être hierarchisée. L'intégration de CircleCI s'appuie sur cette caractéristique. Lorsqu'un build est corrigé, le webhook s'ajoute en tant que commentaire. Ci-dessous un exemple d'intégration
 
 
 ![](/images/posts/circleci.png){: .align-center}

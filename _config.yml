@@ -1,8 +1,8 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "talkSpirit"
+title                    : "talkspirit"
 title_separator          : "-"
-name                     : "talkSpirit"
+name                     : "talkspirit"
 description              : "An amazing website."
 url                      :
 baseurl                  :
@@ -53,7 +53,7 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : talkSpirit
+  name             : talkspirit
   avatar           : https://www.talkspirit.com/images/official/logo-tk.png
   bio              :
   location         :
