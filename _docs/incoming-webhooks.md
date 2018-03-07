@@ -5,8 +5,6 @@ excerpt: "Incoming Webhooks is a way to send posts from external sources into ta
 modified: 2016-05-23
 ---
 
-{% include base_path %}
-
 Incoming Webhooks is a way to send posts from external sources into talkspirit
 through a secret URL. The webhooks can be send to groups or users. Basically you
 just have to send a simple HTTP requests with a JSON payload in UTF-8.
@@ -18,7 +16,7 @@ in your talkspirit team, grab the token and start to send posts.
 
 You'll learn how to post a message like this:
 
-![](/images/docs/post-through-incoming-webhook3.png){: .align-center}
+![](/img/docs/post-through-incoming-webhook3.png){: .align-center}
 
 For this message your JSON payload needs to define these properties:
 
@@ -29,14 +27,14 @@ For this message your JSON payload needs to define these properties:
       "contact": {
         "display_name": "Incoming Webhook bot",
         "url": "https://www.talkspirit.com/",
-        "icon": "https://talkspirit.github.io/images/talkspirit-bot-avatar.png"
+        "icon": "https://talkspirit.github.io/img/talkspirit-bot-avatar.png"
       }
     }
 
 The illustration bellow shows you where the payload properties are placed in the post:
 
 <figure>
-  <img src="/images/docs/post-webhook.png" alt="">
+  <img src="/img/docs/post-webhook.png" alt="">
   <figcaption>
     <ul>
       <li>blue: contact properties</li>
@@ -61,7 +59,7 @@ just need to copy/paste it and change the token (XXX...) by yours.
       "contact": {
         "display_name": "Incoming Webhook bot",
         "url": "https://www.talkspirit.com/",
-        "icon": "https://talkspirit.github.io/images/talkspirit-bot-avatar.png"
+        "icon": "https://talkspirit.github.io/img/talkspirit-bot-avatar.png"
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -84,7 +82,7 @@ Example:
       "contact": {
         "display_name": "Incoming Webhook bot",
         "url": "https://www.talkspirit.com/",
-        "icon": "https://talkspirit.github.io/images/talkspirit-bot-avatar.png"
+        "icon": "https://talkspirit.github.io/img/talkspirit-bot-avatar.png"
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -95,14 +93,14 @@ Example:
       "contact": {
         "display_name": "Incoming Webhook bot",
         "url": "https://www.talkspirit.com/",
-        "icon": "https://talkspirit.github.io/images/talkspirit-bot-avatar.png"
+        "icon": "https://talkspirit.github.io/img/talkspirit-bot-avatar.png"
       }
     }' https://webhook.talkspirit.com/v1/incoming/XXXXXXXXXXXXXXXXXXXXXXXX
 
 
 The result:
 
-![](/images/docs/post-through-incoming-webhook4.png){: .align-center}
+![](/img/docs/post-through-incoming-webhook4.png){: .align-center}
 
 
 [create-incoming-webhook]: /docs/create-incoming-webhook/
