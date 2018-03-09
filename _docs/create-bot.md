@@ -50,9 +50,9 @@ There are different type of requests:
 {
    "meta":{
       "type":"bot_command",
-      "host":"recette.ghostspirit.net",
+      "host":"mon-organisation.talkspirit.com",
       "id":"566949ad620552955e8b4567",
-      "token":"pbJIottQ1desXSizwB54p_iXYUT-73Or7SyFabjS6VY",
+      "token":"pbJIottQ1desXSizwB54p_iXYUT-xxx",
       "app_name":"custom_bot_command"
    },
    "data":{
@@ -63,7 +63,7 @@ There are different type of requests:
          "type":"user"
       },
       "room":{
-         "id":"jeanBotBot_jean-carriere",
+         "id":"jeanBot_jean-carriere",
          "type":"private"
       },
       "command":"",
@@ -78,9 +78,9 @@ There are different type of requests:
 {
    "meta":{
       "type":"room_created",
-      "host":"recette.ghostspirit.net",
+      "host":"mon-organisation.talkspirit.com",
       "id":"566949ad620552955e8b4567",
-      "token":"pbJIottQ1desXSizwB54p_iXYUT-73Or7SyFabjS6VY",
+      "token":"pbJIottQ1desXSizwB54p_iXYUT-xxx",
       "app_name":"custom_bot_command"
    },
    "data":{
@@ -90,7 +90,7 @@ There are different type of requests:
          "type":"user"
       },
       "room":{
-         "id":"jeanBotBot_jean-carriere",
+         "id":"jeanBot_jean-carriere",
          "type":"private"
       }
    }
@@ -101,9 +101,9 @@ There are different type of requests:
 ```json
 {
    "meta":{
-      "host":"recette.ghostspirit.net",
+      "host":"mon-organisation.talkspirit.com",
       "id":"566949ad620552955e8b4567",
-      "token":"pbJIottQ1desXSizwB54p_iXYUT-73Or7SyFabjS6VY",
+      "token":"pbJIottQ1desXSizwB54p_iXYUT-xxx",
       "type":"chat_message",
       "app_name":"custom_bot_command"
    },
@@ -114,7 +114,7 @@ There are different type of requests:
          "type":"user"
       },
       "room":{
-         "id":"jeanBotBot_jean-carriere"
+         "id":"jeanBot_jean-carriere"
       },
       "text":"hello",
       "id":"5aa11001e893331613388552",
