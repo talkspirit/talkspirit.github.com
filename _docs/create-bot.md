@@ -18,12 +18,12 @@ After that, it returns its response to the API with a standardised format.
 ## How can I create a new bot ?
 
 Your bot can be created in the language of your choice, the only constraint is that it has to be able to communicate with HTTP requests.
-A functional example developed with Symfony is available here https://github.com/talkspirit/bot-demo . Feel free to use it as a base code for your own bot.
+A functional example developed with [Symfony](https://symfony.com/) is available here [bot-demo](https://github.com/talkspirit/bot-demo). Feel free to use it as a base code for your own bot.
 In our example, we’ll suppose you’ve pressed the heroku deployment button visible on the repository’s README and now you have a live working BotDemo with an heroku url like https://polar-ridge-99999.herokuapp.com/
 
 ### Configure a new bot
 
-To add your new bot, click on the settings icon and select Bots : 
+To add your new bot, click on the settings icon and select Bots :
 
 ![panel bot](/img/docs/panel-bot.png)
 
@@ -44,7 +44,7 @@ All bot requests are sent to the url you configured for your bot. It’s up to y
 ### Respond to a request
 
 When the bot receives a request, this one contains a domain name (meta.host) and a token (meta.token) allowing you to construct the url. So the response will have to be sent to the url ‘https://webhook.talkspirit.com/v1/bot/{token}’ with the POST method.
-There are different type of requests: 
+There are different type of requests:
 * bot_command: this message is sent to the bot when the user submits a command in the input field (/create for instance) or when the conversation is opened (so that the application can get the list of the available commands)
 ```json
 {
@@ -185,10 +185,11 @@ Chat messages will be added to the conversation. They can contain a text, html c
 }
 ```
 
-
 #### Inline queries
+
 Inline queries response will be displayed to the user as autosuggest in the input field.
 Here is the list of informations you need to send to create an inline query response.
+
 ```json
 {
 	"meta" : {
@@ -197,13 +198,12 @@ Here is the list of informations you need to send to create an inline query resp
 	"data" : {
 		"id" : "Message id",
 		"result" : {
-            "type" : "command",
-            "title": "joke",
-            "description": "tell a joke",
-            "trigger": "/joke",
-            "usage": "/joke"
+         "type" : "command",
+         "title": "joke",
+         "description": "tell a joke",
+         "trigger": "/joke",
+         "usage": "/joke"
 		}
 	}
 }
 ```
-
