@@ -1,7 +1,7 @@
 # Site settings
-title: Talkspirit documentation
+title: talkspirit documentation
 email: contact@talkspirit.com
-description: Talkspirit documentation and blog
+description: talkspirit documentation and blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://talkspirit.github.io # the base hostname & protocol for your site
 git_address: https://github.com/talkspirit
