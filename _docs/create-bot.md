@@ -39,7 +39,7 @@ Now enable your bot by pressing the button “users and rooms” on the top righ
 
 ### Receiving a request
 
-All bot requests are sent to the url you configured for your bot. It’s up to you to analyse the user’s message to create your response. You can find all the informations you need to send in the [Technical specifications](“#technical-specifications”)
+All bot requests are sent to the url you configured for your bot. It’s up to you to analyse the user’s message to create your response. You can find all the informations you need to send in the [Technical specifications](#technical-specifications)
 
 ### Respond to a request
 
@@ -130,7 +130,7 @@ When the user press the key “/” in the input field, the bot will receive a r
 ![bot commands autocompletion](/img/docs/bot-autocompletion.png)
 
 Commands are predefined messages pattern which perform specific actions. It’s a good way to show what the bot can do and help new users to discover these functionalities.
-Technically, when the API sends a message with an empty text with the type "bot_command", the bot has to send back the list of available commands. See the [inline queries specifications](“#inline-queries”) repository for more details.
+Technically, when the API sends a message with an empty text with the type "bot_command", the bot has to send back the list of available commands. See the [inline queries specifications](#inline-queries) repository for more details.
 
 ## Technical specifications
 
