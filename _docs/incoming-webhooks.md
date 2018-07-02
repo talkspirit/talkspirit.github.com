@@ -102,5 +102,24 @@ The result:
 
 ![](/img/docs/post-through-incoming-webhook4.png){: .align-center}
 
+## Labels
+
+In the *Pro* plan, it's possible to create incoming webhooks with labels. Copy-paste the id of the label and add the field labels in the payload
+
+    {
+      "title": "First post through Incoming Webhook",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "url": "https://www.talkspirit.com/",
+      "labels": [
+          "5829ccae8fdf08454b8b4567",
+          "5829ccb08fdf085c4b8b4568"
+      ],
+      "contact": {
+        "display_name": "Incoming Webhook bot",
+        "url": "https://www.talkspirit.com/",
+        "icon": "https://talkspirit.github.io/images/talkspirit-bot-avatar.png"
+      }
+    }
+
 
 [create-incoming-webhook]: /docs/create-incoming-webhook/
