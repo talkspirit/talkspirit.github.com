@@ -197,13 +197,13 @@ Here is the list of informations you need to send to create an inline query resp
 	},
 	"data" : {
 		"id" : "Message id",
-		"result" : {
+		"result" : [{
          "type" : "command",
          "title": "joke",
          "description": "tell a joke",
          "trigger": "/joke",
          "usage": "/joke"
-		}
+		}]
 	}
 }
 ```
